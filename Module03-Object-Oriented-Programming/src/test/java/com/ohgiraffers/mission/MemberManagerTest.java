@@ -17,14 +17,12 @@ class MemberManagerTest {
                 new LibraryMember("Alice", "LM001"),
                 new StudentMember("Bob", "LM002"),
         };
-
         manager = new MemberManager(members);
     }
 
     @Test
     void testPrintMembers() {
         String result = manager.printMembers();
-
         Assertions.assertTrue(result.contains("Alice"));
         Assertions.assertTrue(result.contains("LM001"));
         Assertions.assertTrue(result.contains("3"));
