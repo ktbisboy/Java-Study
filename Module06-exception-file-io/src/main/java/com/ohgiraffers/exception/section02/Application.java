@@ -11,7 +11,7 @@ package com.ohgiraffers.exception.section02;
 * - 예외가 발생하면 프로그램이 비정상적으로 종료되어야 한다.
 * - 안정적인 프로그램 실행을 위해 반드시 처리해야 한다.
 *
-* try-cathc 문법
+* try-catch 문법
 * - try : 예외가 발생할 가능성이 있는 코드 블록
 * - catch : 특정 예외를 처리하는 코드 블록
 * - finally : 예외 발생 여부와 상관없이 항상 실행되는 코드 블록(자원 해제에 사용)
